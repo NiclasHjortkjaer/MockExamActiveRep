@@ -1,0 +1,26 @@
+syntax = "proto3";
+option go_package = "https://github.com/NiclasHjortkjaer/MockExam/Proto";
+package proto;
+
+message Message{
+    int32 value = 1;
+}
+
+message Void{}
+
+message PortsAndClocks{
+    repeated int32 listOfPorts = 1;
+    repeated uint32 listOfClocks = 2;
+}
+
+message ElectionPorts{
+    repeated int32 listOfPorts = 1;
+}
+
+service ChatService {
+    rpc IncrementValue(Message) returns (Message){}
+
+    rpc RingElection(PortsAndClocks) returns (Void){}
+    rpc SelectNewLeader(Void) returns (ElectionPorts){}
+    rpc BroadcastNewLeader(ElectionPorts) returns (Void){}
+}

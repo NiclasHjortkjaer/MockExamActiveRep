@@ -1,0 +1,26 @@
+2022/01/03 23:45:38 Replicated: Value:55, Timestamp: 11
+2022/01/03 23:45:49 Missing pulse from prime replica. Last Pulse: 6.2937793s seconds ago
+2022/01/03 23:45:49 Leader election called
+2022/01/03 23:45:49 New server open at: [::]:5001
+2022/01/03 23:45:49 Received new leader
+4:43 Leader election called
+3 20:21:42 Leader election called
+2022/01/03 20:21:42 New server open at: [::]:5001
+2022/01/03 20:21:42 Received new leader
+22/01/03 18:52:35 Server recieved increment wish with a value of 10
+2022/01/03 18:52:35 Current value is now: 20
+2022/01/03 18:52:36 __________________________________
+2022/01/03 18:52:36 Server recieved increment wish with a value of 10
+2022/01/03 18:52:36 Current value is now: 30
+2022/01/03 18:52:36 __________________________________
+2022/01/03 18:52:36 Server recieved increment wish with a value of 10
+2022/01/03 18:52:36 Current value is now: 40
+2022/01/03 18:52:37 __________________________________
+2022/01/03 18:52:37 Server recieved increment wish with a value of 10
+2022/01/03 18:52:37 Current value is now: 50
+2022/01/03 18:52:37 __________________________________
+2022/01/03 18:52:37 Server recieved increment wish with a value of 10
+2022/01/03 18:52:37 Current value is now: 60
+2022/01/03 18:52:38 __________________________________
+2022/01/03 18:52:38 Server recieved increment wish with a value of 10
+2022/01/03 18:52:38 Current value is now: 70

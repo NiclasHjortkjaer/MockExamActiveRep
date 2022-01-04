@@ -1,0 +1,14 @@
+2022/01/03 23:45:38 __________________________________
+2022/01/03 23:45:38 Server recieved increment wish with a value of 55
+2022/01/03 23:45:38 Current value is now: 55
+22/01/03 22:20:25 __________________________________
+2022/01/03 22:20:25 Server recieved increment wish with a value of 5
+2022/01/03 22:20:25 Current value is now: 10
+2022/01/03 22:20:27 Could not replicate to port. rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp :5751: connectex: No connection could be made because the target machine actively refused it."
+2022/01/03 22:20:52 __________________________________
+2022/01/03 22:20:52 Server recieved increment wish with a value of 10010
+2022/01/03 22:20:52 Current value is now: 10020
+2022/01/03 22:20:54 Could not replicate to port. rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp :5751: connectex: No connection could be made because the target machine actively refused it."
+/01/03 15:17:41 __________________________________
+2022/01/03 15:17:41 Server recieved incrementwish with a value of 1
+2022/01/03 15:17:41 Current value is now: 11
